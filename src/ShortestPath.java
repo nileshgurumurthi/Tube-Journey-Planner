@@ -1,11 +1,3 @@
-package Path;
-
-import Routes.FastestRoute;
-import Routes.LeastChanges;
-import Routes.LeastStops;
-import Routes.RouteType;
-import Tube.AdjStation;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -23,7 +15,7 @@ public class ShortestPath {
 
     static{
         priority = new HashMap<>();
-        priority.put(1,new FastestRoute("Fastest Tube.Route"));
+        priority.put(1,new FastestRoute("Fastest Route"));
         priority.put(2,new LeastStops("Fewest Stops"));
         priority.put(3,new LeastChanges("Fewest Changes"));
     }

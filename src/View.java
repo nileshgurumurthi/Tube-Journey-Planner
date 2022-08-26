@@ -1,8 +1,3 @@
-package Output;
-import Tube.AdjStation;
-import Output.ShortestPath;
-import Output.Tube;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -15,7 +10,7 @@ public class View {
     }
 
     public void homeScreen(){
-        System.out.println("Welcome to the Output.Tube Map Planner. Please select an option below");
+        System.out.println("Welcome to the Tube Map Planner. Please select an option below");
         System.out.println("(a) Plan Journey");
         System.out.println("(b) Settings");
         System.out.print("Selected Option: ");
@@ -31,9 +26,9 @@ public class View {
 
     public void planJourney(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("\nEnter ID of Starting Output.Tube.Station: ");
+        System.out.print("\nEnter ID of Starting Station: ");
         int startingStation = sc.nextInt();
-        System.out.print("Enter ID of Destination Output.Tube.Station: ");
+        System.out.print("Enter ID of Destination Station: ");
         int destinationStation = sc.nextInt();
         printShortestPath(startingStation,destinationStation);
 
@@ -44,7 +39,7 @@ public class View {
         path.findShortestPath();
         System.out.println("\nSUMMARY OF JOURNEY");
         if (path.getShortestPath().size() != 0){
-            System.out.println("Your Output.Tube.Route Preference: " + ShortestPath.getPriority().getRoutePreference());
+            System.out.println("Your Route Preference: " + ShortestPath.getPriority().getRoutePreference());
             System.out.println("Journey Time (Minutes): " + path.getTotalTime());
             System.out.println("Total Stops: " + path.getNrStops());
             System.out.println("Total Changes: " + path.getNrChanges());
@@ -69,11 +64,11 @@ public class View {
             int routeId = shortestPath.get(i).getRouteId();
             if (lineId != currentLineId){
                 changeLineOrRoute(currentId,currentLineId);
-                System.out.println("Change Output.Tube.Line");
+                System.out.println("Change Line");
             }
             else if (routeId != currentRouteId){
                 changeLineOrRoute(currentId,currentLineId);
-                System.out.println("Change Output.Tube.Route");
+                System.out.println("Change Route");
             }
 
             if (i == 0){
@@ -90,13 +85,13 @@ public class View {
     public void changeLineOrRoute(int currentId, int currentLineId){
         String lineName = myTube.getLine(currentLineId).getName();
         String stationName = myTube.getStation(currentId).getName();
-        System.out.println("Take " + lineName + " Output.Tube.Line " + "to " + stationName);
+        System.out.println("Take " + lineName + " Line " + "to " + stationName);
     }
 
     public void settings(){
         System.out.println("\nPlease select an option below");
-        System.out.println("(a) Change Output.Tube.Route Preference");
-        System.out.println("(b) Close off a Output.Tube.Station");
+        System.out.println("(a) Change Route Preference");
+        System.out.println("(b) Close off a Station");
         System.out.print("Selected Option: ");
         Scanner sc = new Scanner(System.in);
         String chosenOption = sc.next();
@@ -111,7 +106,7 @@ public class View {
     public void changeRoutePreference(){
         System.out.println("\nYour current route preference is: " + ShortestPath.getPriority().getRoutePreference());
         System.out.println("Please select an option below");
-        System.out.println("(1) Fastest Output.Tube.Route");
+        System.out.println("(1) Fastest Route");
         System.out.println("(2) Fewest Stops");
         System.out.println("(3) Fewest Changes");
         System.out.print("Selected Option: ");
@@ -124,9 +119,9 @@ public class View {
 
     public void closeLine(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("\nEnter ID of Output.Tube.Station: ");
+        System.out.print("\nEnter ID of Station: ");
         int chosenStation = sc.nextInt();
-        System.out.print("Enter ID of Output.Tube.Line: ");
+        System.out.print("Enter ID of Line: ");
         int chosenLine = sc.nextInt();
         myTube.removeStation(chosenStation,chosenLine);
         System.out.println("");

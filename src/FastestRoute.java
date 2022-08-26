@@ -1,7 +1,3 @@
-package Routes;
-
-import Routes.RouteType;
-
 public class FastestRoute extends RouteType {
 
     private int changeLineTime = 5;

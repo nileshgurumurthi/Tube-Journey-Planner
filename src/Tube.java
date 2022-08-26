@@ -1,8 +1,3 @@
-package Output;
-import Tube.Station;
-import Tube.Line;
-import Tube.AdjStation;
-import Tube.Route;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,7 +27,7 @@ public class Tube {
     }
 
     private void loadStations() throws Exception {
-        File stationFile = new File("Lines/Output.Tube Map Stations.csv");
+        File stationFile = new File("Lines/Tube Map Stations.csv");
         Scanner sc = new Scanner(stationFile);
         while (sc.hasNextLine()) {
             String [] nextLine = sc.nextLine().split(",");
