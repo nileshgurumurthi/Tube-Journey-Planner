@@ -1,0 +1,30 @@
+Morden,South Wimbledon,192,262,2
+South Wimbledon,Colliers Wood,262,66,2
+Colliers Wood,Tooting Broadway,66,287,2
+Tooting Broadway,Tooting Bec,287,286,2
+Tooting Bec,Balham,286,15,1
+Balham,Clapham South,15,63,2
+Clapham South,Clapham Common,63,61,2
+Clapham Common,Clapham North,61,62,2
+Clapham North,Stockwell,62,276,1
+Stockwell,Oval,276,212,2
+Oval,Kennington,212,152,3
+Kennington,Waterloo,152,308,2
+Waterloo,Embankment,308,94,2
+Embankment,Charing Cross,94,56,1
+Charing Cross,Leicester Square,56,170,1
+Leicester Square,Tottenham Court Road,170,288,1
+Tottenham Court Road,Goodge Street,288,111,2
+Goodge Street,Warren Street,111,306,1
+Warren Street,Euston,306,96,1
+Euston,Mornington Crescent,96,193,2
+Mornington Crescent,Camden Town,193,46,3
+Camden Town,Chalk Farm,46,54,2
+Chalk Farm,Belsize Park,54,26,2
+Belsize Park,Hampstead,26,121,2
+Hampstead,Golders Green,121,109,5
+Golders Green,Brent Cross,109,38,2
+Brent Cross,Hendon Central,38,133,2
+Hendon Central,Colindale,133,65,3
+Colindale,Burnt Oak,65,44,2
+Burnt Oak,Edgware,44,88,3

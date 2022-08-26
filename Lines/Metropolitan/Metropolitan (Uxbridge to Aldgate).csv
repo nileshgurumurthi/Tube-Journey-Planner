@@ -1,0 +1,21 @@
+Uxbridge,Hillingdon,301,139,2
+Hillingdon,Ickenham,139,148,2
+Ickenham,Ruislip ,148,243,3
+Ruislip ,Ruislip Manor,243,245,1
+Ruislip Manor,Eastcote,245,87,2
+Eastcote,Rayners Lane,87,232,4
+Rayners Lane,West Harrow,232,319,2
+West Harrow,Harrow-on-the Hill,319,127,3
+Harrow-on-the-Hill,Northwick Park,127,205,2
+Northwick Park,Preston Road,205,224,3
+Preston Road,Wembley Park,224,311,2
+Wembley Park,Finchley Road,311,101,8
+Finchley Road,Baker Street,101,14,6
+Baker Street,Great Portland Street,14,114,2
+Great Portland Street,Euston Square,114,97,2
+Euston Square,King's Cross St Pancras,97,161,2
+King's Cross St Pancras,Farringdon,161,99,3
+Farringdon,Barbican,99,17,1
+Barbican,Moorgate,17,191,2
+Moorgate,Liverpool Street,191,175,2
+Liverpool Street,Aldgate,175,5,1

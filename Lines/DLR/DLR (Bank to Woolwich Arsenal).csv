@@ -1,0 +1,12 @@
+Bank,Shadwell,16,249,3
+Shadwell,Limehouse,249,174,2
+Limehouse,Westferry,174,325,2
+Westferry,Poplar,325,223,2
+Poplar,Blackwall,223,31,2
+Blackwall,East India,31,85,1
+East India,Canning Town,85,49,2
+Canning Town,West Silvertown,49,323,3
+West Silvertown,Pontoon Dock,323,222,1
+Pontoon Dock,London City Airport,222,177,2
+London City Airport,King George V,177,160,2
+King George V,Woolwich Arsenal,160,338,4

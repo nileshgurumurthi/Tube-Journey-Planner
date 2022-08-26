@@ -1,0 +1,37 @@
+Heathrow Terminal 4,Heathrow Terminals 2 & 3,130,132,5
+Heathrow Terminal 4,Hatton Cross,132,128,3
+Hatton Cross,Hounslow West,128,146,4
+Hounslow West,Hounslow Central,146,144,2
+Hounslow Central,Hounslow East,144,145,2
+Hounslow East,Osterley,145,211,2
+Osterley,Boston Manor,211,34,3
+Boston Manor,Northfields,34,203,3
+Northfields,South Ealing ,203,256,1
+South Ealing ,Acton Town,256,4,4
+Acton Town,Turnham Green,4,294,3
+Turnham Green,Hammersmith,294,120,5
+Hammersmith,Barons Court,120,20,2
+Barons Court,Earl's Court,20,81,3
+Earl's Court,Gloucester Road,81,108,2
+Gloucester Road,South Kensington,108,258,2
+South Kensington,Knightsbridge,258,163,2
+Knightsbridge,Hyde Park Corner,163,147,2
+Hyde Park Corner,Green Park,147,115,2
+Green Park,Piccadilly Circus,115,218,2
+Piccadilly Circus,Leicester Square,218,170,1
+Leicester Square,Covent Garden,170,67,1
+Covent Garden,Holborn ,67,140,2
+Holborn ,Russell Square,140,246,2
+Russell Square,King's Cross St Pancras,246,161,2
+King's Cross St Pancras,Caledonian Road,161,45,3
+Caledonian Road,Holloway Road,45,142,1
+Holloway Road,Arsenal,142,13,2
+Arsenal,Finsbury Park,13,102,2
+Finsbury Park,Manor House,102,181,2
+Manor House,Turnpike Lane,181,295,3
+Turnpike Lane,Wood Green,295,333,2
+Wood Green,Bounds Green,333,35,2
+Bounds Green,Arnos Grove,35,12,4
+Arnos Grove,Southgate,12,266,3
+Southgate,Oakwood,266,209,3
+Oakwood,Cockfosters,209,64,3

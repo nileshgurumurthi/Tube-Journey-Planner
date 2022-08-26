@@ -1,0 +1,34 @@
+Hammersmith,Goldhawk Road,120,110,2
+Goldhawk Road,Shepherd's Bush Market,110,252,2
+Shepherd's Bush Market,Wood Lane,252,334,1
+Wood Lane,Latimer Road,334,169,2
+Latimer Road,Ladbroke Grove,169,164,1
+Ladbroke Grove,Westbourne Park,164,324,2
+Westbourne Park,Royal Oak,324,241,2
+Royal Oak,Paddington,241,214,2
+Paddington,Edgware Road (Circle),214,90,2
+Edgware Road (Circle),Baker Street,90,14,3
+Baker Street,Great Portland Street,14,114,2
+Great Portland Street,Euston Square,114,97,1
+Euston Square,King's Cross St Pancras,97,161,2
+King's Cross St Pancras,Farringdon,161,99,3
+Farringdon,Barbican,99,17,2
+Barbican,Moorgate,17,191,2
+Moorgate,Liverpool Street,191,175,1
+Liverpool Street,Aldgate,175,5,4
+Aldgate,Tower Hill,5,292,3
+Tower Hill,Monument,292,189,2
+Monument,Cannon Street,189,50,1
+Cannon Street,Mansion House,50,183,1
+Mansion House,Blackfrairs,183,29,2
+Blackfrairs,Temple,29,284,2
+Temple,Embankment,284,94,1
+Embankment,Westminster,94,326,2
+Westminster,St James's Park,326,268,2
+St James's Park,Victoria,268,303,2
+Victoria,Sloane Square,303,253,2
+Sloane Square,South Kensington,253,258,2
+South Kensington,Gloucester Road,258,108,4
+Gloucester Road,High Street Kensington,108,136,3
+High Street Kensington,Notting Hill Gate,136,208,2
+Notting Hill Gate,Bayswater,208,22,2

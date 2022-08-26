@@ -1,0 +1,41 @@
+Uxbridge,Hillingdon,301,139,2
+Hillingdon,Ickenham,139,148,2
+Ickenham,Ruislip ,148,243,3
+Ruislip ,Ruislip Manor,243,245,1
+Ruislip Manor,Eastcote,245,87,2
+Eastcote,Rayners Lane,87,232,4
+Rayners Lane,South Harrow,232,257,5
+South Harrow,Sudbury Hill,257,280,2
+Sudbury Hill,Sudbury Town,280,281,2
+Sudbury Town,Alperton,281,8,3
+Alperton,Park Royal,8,215,3
+Park Royal,North Ealing,215,199,1
+North Ealing,Ealing Common,199,80,1
+Ealing Common,Acton Town,80,4,4
+Acton Town,Turnham Green,4,294,3
+Turnham Green,Hammersmith,294,120,5
+Hammersmith,Barons Court,120,20,2
+Barons Court,Earl's Court,20,81,3
+Earl's Court,Gloucester Road,81,108,2
+Gloucester Road,South Kensington,108,258,2
+South Kensington,Knightsbridge,258,163,2
+Knightsbridge,Hyde Park Corner,163,147,2
+Hyde Park Corner,Green Park,147,115,2
+Green Park,Piccadilly Circus,115,218,2
+Piccadilly Circus,Leicester Square,218,170,1
+Leicester Square,Covent Garden,170,67,1
+Covent Garden,Holborn ,67,140,2
+Holborn ,Russell Square,140,246,2
+Russell Square,King's Cross St. Pancras,246,161,2
+King's Cross St. Pancras,Caledonian Road,161,45,3
+Caledonian Road,Holloway Road,45,142,1
+Holloway Road,Arsenal,142,13,2
+Arsenal,Finsbury Park,13,102,2
+Finsbury Park,Manor House,102,181,2
+Manor House,Turnpike Lane,181,295,3
+Turnpike Lane,Wood Green,295,333,2
+Wood Green,Bounds Green,333,35,2
+Bounds Green,Arnos Grove,35,12,4
+Arnos Grove,Southgate,12,266,3
+Southgate,Oakwood,266,209,3
+Oakwood,Cockfosters,209,64,3

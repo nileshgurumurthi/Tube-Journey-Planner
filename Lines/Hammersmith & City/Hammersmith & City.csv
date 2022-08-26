@@ -1,0 +1,28 @@
+Hammersmith,Goldhawk Road,120,110,2
+Goldhawk Road,Shepherd's Bush Market,110,252,1
+Shepherd's Bush Market,Wood Lane,252,334,2
+Wood Lane,Latimer Road,334,169,1
+Latimer Road,Ladbroke Grove,169,164,2
+Ladbroke Grove,Westbourne Park,164,324,1
+Westbourne Park,Royal Oak,324,241,2
+Royal Oak,Paddington,241,214,3
+Paddington,Edgware Road (Circle),214,90,2
+Edgware Road (Circle),Baker Street,90,14,3
+Baker Street,Great Portland Street,14,114,2
+Great Portland Street,Euston Square,114,97,1
+Euston Square,King's Cross St Pancras,97,161,2
+King's Cross St Pancras,Farringdon,161,99,3
+Farringdon,Barbican,99,17,2
+Barbican,Moorgate,17,191,2
+Moorgate,Liverpool Street,191,175,2
+Liverpool Street,Aldgate East,175,6,5
+Aldgate East,Whitechapel,6,328,2
+Whitechapel,Stepney Green,328,275,2
+Stepney Green,Mile End,275,187,2
+Mile End,Bow Road,187,37,2
+Bow Road,Bromley-by-Bow,37,41,2
+Bromley-by-Bow,West Ham,41,317,2
+West Ham,Plaistow,317,221,2
+Plaistow,Upton Park,221,300,2
+Upton Park,East Ham,300,84,2
+East Ham,Barking,84,18,3

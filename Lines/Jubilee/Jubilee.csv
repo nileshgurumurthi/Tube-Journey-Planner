@@ -1,0 +1,26 @@
+Stanmore,Canons Park,272,51,2
+Canons Park,Queensbury,51,229,2
+Queensbury,Kingsbury,229,162,2
+Kingsbury,Wembley Park,162,311,5
+Wembley Park,Neasden ,311,195,2
+Neasden ,Dollis Hill,195,78,2
+Dollis Hill,Willesden Green,78,329,2
+Willesden Green,Kilburn,329,158,2
+Kilburn,West Hampstead,158,318,3
+West Hampstead,Finchley Road,318,101,1
+Finchley Road,Swiss Cottage,101,282,2
+Swiss Cottage,St John's Wood,282,269,1
+St John's Wood,Baker Street,269,14,3
+Baker Street,Bond Street,14,32,2
+Bond Street,Green Park,32,115,2
+Green Park,Westminster,115,326,3
+Westminster,Waterloo,326,308,1
+Waterloo,Southwark,308,267,1
+Southwark,London Bridge,267,176,2
+London Bridge,Bermondsey,176,27,3
+Bermondsey,Canada Water,27,47,2
+Canada Water,Canary Wharf,47,48,2
+Canary Wharf,North Greenwich,48,200,3
+North Greenwich,Canning Town,200,49,2
+Canning Town,West Ham ,49,317,3
+West Ham ,Stratford,317,278,3

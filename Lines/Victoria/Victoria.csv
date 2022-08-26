@@ -1,0 +1,15 @@
+Brixton,Stockwell,40,276,2
+Stockwell,Vauxhall,276,302,2
+Vauxhall,Pimlico,302,219,1
+Pimlico,Victoria,219,303,2
+Victoria,Green Park,303,115,2
+Green Park,Oxford Circus,115,213,2
+Oxford Circus,Warren Street,213,306,2
+Warren Street,Euston,306,96,1
+Euston,King's Cross St Pancras,96,161,2
+King's Cross St Pancras,Highbury & Islington,161,137,3
+Highbury & Islington,Finsbury Park,137,102,2
+Finsbury Park,Seven Sisters,102,248,4
+Seven Sisters,Tottenham Hale,248,289,2
+Tottenham Hale,Blackhorse Road,289,30,2
+Blackhorse Road,Walthamstow Central,30,304,1

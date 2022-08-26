@@ -1,0 +1,40 @@
+Wimbledon,Wimbledon Park,331,332,2
+Wimbledon Park,Southfields,332,265,3
+Southfields,East Putney,265,86,2
+East Putney,Putney Bridge,86,227,3
+Putney Bridge,Parsons Green,227,216,2
+Parsons Green,Fulham Broadway,216,104,1
+Fulham Broadway,West Brompton,104,313,2
+West Brompton,Earl's Court,313,81,5
+Earl's Court,Gloucester Road,81,108,3
+Gloucester Road,South Kensington,108,258,1
+South Kensington,Sloane Square,258,253,2
+Sloane Square,Victoria,253,303,3
+Victoria,St James's Park,303,268,2
+St James's Park,Westminister,268,326,2
+Westminister,Embankment,326,94,2
+Embankment,Temple,94,284,1
+Temple,Blackfrairs,284,29,2
+Blackfrairs,Mansion House,29,183,2
+Mansion House,Cannon Street,183,50,1
+Cannon Street,Monument,50,189,2
+Monument,Tower Hill ,189,292,2
+Tower Hill ,Algate East,292,6,2
+Algate East,Whitechapel,6,328,2
+Whitechapel,Stepney Green,328,275,2
+Stepney Green,Mile End,275,187,2
+Mile End,Bow Road,187,37,2
+Bow Road,Bromley-by-Bow,37,41,2
+Bromley-by-Bow,West Ham,41,317,2
+West Ham,Plaistow,317,221,2
+Plaistow,Upton Park,221,300,2
+Upton Park,East Ham,300,84,3
+East Ham,Barking,84,18,4
+Barking,Upney,18,299,2
+Upney,Becontree,299,25,2
+Becontree,Dagenham Heathway,25,74,2
+Dagenham Heathway,Dagenham East,74,73,2
+Dagenham East,Elm Park,73,92,3
+Elm Park,Hornchurch,92,143,2
+Hornchurch,Upminister Bridge,143,298,2
+Upminister Bridge,Upminister,298,297,3

@@ -1,0 +1,30 @@
+Hainault,Fairlop,119,98,2
+Fairlop,Barkingside,98,19,1
+Barkingside,Newbury Park,19,196,3
+Newbury Park,Gants Hill,196,106,3
+Gants Hill,Redbridge,106,234,1
+Redbridge,Wanstead,234,305,2
+Wanstead,Leytonstone,305,173,4
+Leytonstone,Leyton ,173,172,2
+Leyton ,Stratford,172,278,3
+Stratford,Mile End,278,187,3
+Mile End,Bethnal Green,187,28,3
+Bethnal Green,Liverpool Street,28,175,3
+Liverpool Street,Bank,175,16,2
+Bank,St Paul's,16,270,2
+St Paul's,Chancery Lane,270,55,2
+Chancery Lane,Holborn,55,140,1
+Holborn,Tottenham Court Road,140,288,2
+Tottenham Court Road,Oxford Circus,288,213,2
+Oxford Circus,Bond Street,213,32,1
+Bond Street,Marble Arch,32,184,2
+Marble Arch,Lancaster Gate,184,166,1
+Lancaster Gate,Queensway,166,230,2
+Queensway,Notting Hill Gate,230,208,2
+Notting Hill Gate,Holland Park,208,141,1
+Holland Park,Shepherd's Bush,141,251,2
+Shepherd's Bush,White City,251,327,4
+White City,East Acton,327,82,3
+East Acton,North Acton,82,198,2
+North Acton,West Acton,198,312,3
+West Acton,Ealing Broadway,312,79,2
