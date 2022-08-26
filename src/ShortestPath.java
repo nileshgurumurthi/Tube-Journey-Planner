@@ -1,3 +1,11 @@
+package Path;
+
+import Routes.FastestRoute;
+import Routes.LeastChanges;
+import Routes.LeastStops;
+import Routes.RouteType;
+import Tube.AdjStation;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -9,18 +17,18 @@ public class ShortestPath {
     private int startingId;
     private int destinationId;
     private static int currentPreference = 1;
-    private static HashMap<Integer,RouteType> priority;
+    private static HashMap<Integer, RouteType> priority;
     RouteType chosenRoute;
     private Tube myTube;
 
     static{
         priority = new HashMap<>();
-        priority.put(1,new FastestRoute("Fastest Route"));
+        priority.put(1,new FastestRoute("Fastest Tube.Route"));
         priority.put(2,new LeastStops("Fewest Stops"));
         priority.put(3,new LeastChanges("Fewest Changes"));
     }
 
-    public ShortestPath(Tube myTube, int startingId,int destinationId) {
+    public ShortestPath(Tube myTube, int startingId, int destinationId) {
         this.myTube = myTube;
         this.startingId = startingId;
         this.destinationId = destinationId;
@@ -79,7 +87,7 @@ public class ShortestPath {
         }
     }
 
-    public boolean isQuickestPath(AdjStation currentStation,AdjStation nextStation){
+    public boolean isQuickestPath(AdjStation currentStation, AdjStation nextStation){
         int currentTime = (Integer) getValueFromArray(time,currentStation);
         int timeToStation = chosenRoute.timeToStation(currentStation,nextStation);
         int shortestTime = (Integer) getValueFromArray(time,nextStation);
@@ -107,7 +115,7 @@ public class ShortestPath {
 
     }
 
-    public boolean isFalseStart(AdjStation currentStation,AdjStation nextStation){
+    public boolean isFalseStart(AdjStation currentStation, AdjStation nextStation){
         if (isAtStart(currentStation)){
             AdjStation station = new AdjStation(startingId, nextStation.getLineId(), -1,-1);
             if (myTube.isStationRemoved(station)){

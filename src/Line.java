@@ -1,3 +1,5 @@
+package Tube;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -7,7 +9,7 @@ public class Line {
 
     private ArrayList<Integer> stations = new ArrayList<>();
 
-    private HashMap<Integer,Route> routes = new HashMap<>();
+    private HashMap<Integer, Route> routes = new HashMap<>();
 
     public Line(String name){
         this.name = name;
@@ -19,7 +21,7 @@ public class Line {
         }
     }
 
-    public void addRoute(int routeId,Route newRoute){
+    public void addRoute(int routeId, Route newRoute){
         routes.put(routeId,newRoute);
     }
 
@@ -31,7 +33,7 @@ public class Line {
         return stations;
     }
 
-    public HashMap<Integer,Route> getRoutes(){
+    public HashMap<Integer, Route> getRoutes(){
         return routes;
     }
 

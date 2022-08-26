@@ -1,3 +1,7 @@
+package Routes;
+
+import Routes.RouteType;
+
 public class LeastStops extends RouteType {
 
     private int changeStopTime = 1;

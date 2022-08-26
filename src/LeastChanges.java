@@ -1,3 +1,7 @@
+package Routes;
+
+import Routes.RouteType;
+
 public class LeastChanges extends RouteType {
 
     private int changeoverTime = 1;
