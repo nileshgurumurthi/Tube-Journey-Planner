@@ -1,3 +1,5 @@
+package Properties;
+
 public class AdjStation {
 
     private int adjacentId;

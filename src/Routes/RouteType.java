@@ -1,3 +1,7 @@
+package Routes;
+
+import Properties.AdjStation;
+
 public abstract class RouteType {
 
     protected int startingId;

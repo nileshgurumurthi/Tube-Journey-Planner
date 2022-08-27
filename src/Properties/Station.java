@@ -1,3 +1,7 @@
+package Properties;
+
+import Properties.AdjStation;
+
 import java.util.ArrayList;
 
 public class Station {

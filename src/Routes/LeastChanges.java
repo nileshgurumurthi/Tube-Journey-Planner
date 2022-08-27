@@ -1,3 +1,7 @@
+package Routes;
+
+import Properties.AdjStation;
+
 public class LeastChanges extends RouteType {
 
     private int changeoverTime = 1;

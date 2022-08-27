@@ -1,3 +1,7 @@
+package Routes;
+
+import Properties.AdjStation;
+
 public class LeastStops extends RouteType {
 
     private int changeStopTime = 1;

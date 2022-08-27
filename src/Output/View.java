@@ -1,3 +1,9 @@
+package Output;
+
+import Output.Tube;
+import Path.ShortestPath;
+import Properties.AdjStation;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,7 +16,7 @@ public class View {
     }
 
     public void homeScreen(){
-        System.out.println("Welcome to the Tube Map Planner. Please select an option below");
+        System.out.println("Welcome to the Output.Tube Map Planner. Please select an option below");
         System.out.println("(a) Plan Journey");
         System.out.println("(b) Settings");
         System.out.print("Selected Option: ");

@@ -1,3 +1,7 @@
+package Routes;
+
+import Properties.AdjStation;
+
 public class FastestRoute extends RouteType {
 
     private int changeLineTime = 5;
