@@ -9,16 +9,21 @@ import java.util.Scanner;
 
 public class View {
     Tube myTube;
+    API myAPI;
+    ArrayList<String> delays;
 
     public View() throws Exception{
         myTube = new Tube();
+        myAPI = new API();
+        delays = myAPI.fetchDelays();
         homeScreen();
     }
 
     public void homeScreen(){
         System.out.println("Welcome to the Tube Map Planner. Please select an option below");
         System.out.println("(a) Plan Journey");
-        System.out.println("(b) Settings");
+        System.out.println("(b) Network Updates ");
+        System.out.println("(c) Settings");
         System.out.print("Selected Option: ");
         Scanner sc = new Scanner(System.in);
         String chosenOption = sc.next();
@@ -26,8 +31,25 @@ public class View {
             planJourney();
         }
         else if (chosenOption.charAt(0) == 'b'){
+            printDelays();
+        }
+        else if (chosenOption.charAt(0) == 'c'){
             settings();
         }
+    }
+
+    public void printDelays(){
+        System.out.println("\nUPDATES");
+        if (delays.isEmpty()){
+            System.out.println("All lines running as normal");
+        }
+        else{
+            for (String delay: delays){
+                System.out.println(delay);
+            }
+        }
+        System.out.println("");
+        homeScreen();
     }
 
     public void planJourney(){
